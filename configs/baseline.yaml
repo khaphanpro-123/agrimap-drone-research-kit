@@ -1,0 +1,11 @@
+seed: 42
+grid_size: 80
+bands: [blue, green, red, nir]
+classes: [crop_a, crop_b, soil, water]
+train_fraction: 0.60
+test_fraction: 0.20
+output_dir: outputs/baseline
+scenarios:
+  resolution_m: [10, 20, 30]
+  label_fraction: [0.25, 0.50, 0.75, 1.00]
+  missing_observation: [false, true]
