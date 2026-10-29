@@ -1,0 +1,14 @@
+{
+  "project_name": "AgriMap Drone",
+  "demo_seed": 42,
+  "classes": ["maize", "rice", "vegetables"],
+  "satellite_product": "Sentinel-2 Level-2A surface reflectance",
+  "validation_rule": "Spatially separate development and final test regions",
+  "scenarios": {
+    "A_resolution_transfer": [1, 2, 3],
+    "B_missing_observations": [false, true],
+    "C_label_budget_percent": [25, 50, 75, 100],
+    "D_spatial_transfer": ["north_to_south", "south_to_north"],
+    "E_area_robustness": [1, 2, 3]
+  }
+}
