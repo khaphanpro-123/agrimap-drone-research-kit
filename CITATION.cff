@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "If you use this starter kit, cite the archived release and the data/software actually used."
+title: "AgriMap Drone Research Kit"
+type: software
+authors:
+  - name: "AgriMap Drone Team"
+license: MIT
+abstract: "A reproducible starter kit for a satellite-to-drone crop mapping research workflow."
